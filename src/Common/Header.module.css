@@ -1,0 +1,39 @@
+.Container {
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.Container nav {
+    display: flex;
+}
+
+.Container nav ul {
+    display: flex;
+    align-self: center;
+    padding-left: 10px;
+}
+
+.Container li {
+    list-style: none;
+    margin-right: 1.2rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.Container a:hover {
+    color: aquamarine;
+}
+
+.Container a {
+    text-decoration: none;
+    color: darkolivegreen;
+}
+
+.Container img {
+    border-radius: 50%;
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin: .5rem;
+}

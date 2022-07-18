@@ -1,0 +1,18 @@
+.Container {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.Container h1 {
+    font-size: 5rem;
+    color: rgb(63, 65, 87);
+    margin-bottom: 5rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
